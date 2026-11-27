@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E4EAF1;
+  font-family: Arial, sans-serif;
+  color: #3B4A5C;
+}
+ 
+.kalkulator {
+  width: 340px;
+  padding: 28px;
+  background: #F5F7FA;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(59, 74, 92, 0.15);
+}
+ 
+h1 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  text-align: center;
+}
+ 
+.bobot {
+  margin: 0 0 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #7A8798;
+}
+ 
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+ 
+input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #3B4A5C;
+  background: #FFFFFF;
+  border: 2px solid #C9D3DF;
+  border-radius: 10px;
+  outline: none;
+}
+ 
+input:focus {
+  border-color: #7C93AE;
+}
+ 
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #7C93AE;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background: #6A819D;
+}
+ 
+#hasil {
+  min-height: 24px;
+  margin: 18px 0 0;
+  padding: 14px;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  background: #E4EAF1;
+  border-radius: 10px;
+}
